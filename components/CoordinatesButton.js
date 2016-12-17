@@ -15,7 +15,7 @@ class CoordinatesButton extends React.Component {
     return (
       <button onClick={this.coordinatesClick}>Coords</button>
     );
-  }
+  };
 }
 
 module.exports = CoordinatesButton;
