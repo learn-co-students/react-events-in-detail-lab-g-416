@@ -1,13 +1,12 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
+import React from 'react';
+import { render } from 'react-dom';
 
-const CoordinatesButton = require('./components/CoordinatesButton');
-const DelayedButton = require('./components/DelayedButton');
+import CoordinatesButton from './components/CoordinatesButton';
+import DelayedButton from './components/DelayedButton';
 
-ReactDOM.render(
+render (
   <div>
     <CoordinatesButton />
-    <DelayedButton />
   </div>,
   document.getElementById('main')
 );
